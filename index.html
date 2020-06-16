@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>电灯泡</title>
+    <!-- Bootstrap core CSS -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="masthead mb-auto">
+    <div class="inner">
+      <h3 class="masthead-brand">jQuery演示</h3>
+    </div>
+  </header>
+
+  <main role="main" class="inner cover">
+    <h1 class="cover-heading">这是一个灯泡</h1>
+    <p class="lead"><img id="denkyuu" src="denkyuu_off.png" width="300"/></p>
+    <p class="lead">
+      <a href="#" id="switch" class="btn btn-lg btn-secondary">开关</a>
+    </p>
+  </main>
+
+  <footer class="mastfoot mt-auto">
+    <div class="inner">
+      <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a></p>
+    </div>
+  </footer>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.slim.js"></script>
+<script type="text/javascript">
+//swStatus：保持灯泡开关的状态
+var swStatus = false;
+
+$(function(){
+	$("#switch").click(function(){
+		// TODO: 完成按下开关按钮时的程序代码
+	});
+});
+
+function sw(){
+		// TODO: 完成渲染网页画面的程序代码
+}
+
+</script>
+</body>
+</html>
