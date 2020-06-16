@@ -1,15 +1,15 @@
 /*
- * Globals
+ * 全局CSS
  */
 
-/* Links */
+/* 超链接 */
 a,
 a:focus,
 a:hover {
   color: #fff;
 }
 
-/* Custom default button */
+/* 按钮样式 */
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
@@ -21,7 +21,7 @@ a:hover {
 
 
 /*
- * Base structure
+ * 网页通用基础样式
  */
 
 html,
@@ -44,7 +44,7 @@ body {
 
 
 /*
- * Header
+ * 网页头
  */
 .masthead {
   margin-bottom: 2rem;
@@ -87,7 +87,7 @@ body {
 
 
 /*
- * Cover
+ * 网页Cover部分
  */
 .cover {
   padding: 0 1.5rem;
@@ -99,7 +99,7 @@ body {
 
 
 /*
- * Footer
+ * 网页尾
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
